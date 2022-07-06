@@ -10,11 +10,13 @@ add_executable(PhoneBook main.cpp)
 # Local header files here ONLY
 SET (TARGET_H
     filter.h
+    phoneBook.h
 )
 
 # Local source files here
 SET (TARGET_SRC
-    filter.cpp
     contact.cpp
+    filter.cpp
+    phoneBook.cpp
 )
 
