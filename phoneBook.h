@@ -8,8 +8,9 @@ class PhoneBook {
     private:
         vector<Contact> contacts;
     public:
-        PhoneBook();
         void append(Contact c);
+
+        size_t size();
 
         Contact* find(string n);
 
